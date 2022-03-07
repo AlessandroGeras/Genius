@@ -42,8 +42,8 @@ let checkOrder = () => {
 
   setTimeout(() => {
     if (clickedOrder.length == colorOrder.length) {
-      alert(`Score: ${score}\nYou win! Ready to next level!`);      
       score++;
+      alert(`Score: ${score}\nYou win! Ready to next level!`);   
       nextLevel();
     }
   }, 500);
