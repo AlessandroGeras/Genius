@@ -87,7 +87,7 @@ let playGame = () => {
   alert("Start new game!");
   score = 0;
 
-  nextLevel();
+  shuffleOrder();
 };
 
 green.onclick = () => click(0);
