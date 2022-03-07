@@ -42,7 +42,8 @@ let checkOrder = () => {
 
   setTimeout(() => {
     if (clickedOrder.length == colorOrder.length) {
-      alert(`Score: ${score}\nYou win! Ready to next level!`);
+      alert(`Score: ${score}\nYou win! Ready to next level!`);      
+      score++;
       nextLevel();
     }
   }, 500);
@@ -71,7 +72,6 @@ let setOpacity = (color) => {
 };
 
 let nextLevel = () => {
-  score++;
   shuffleOrder();
 };
 
