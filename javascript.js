@@ -96,3 +96,5 @@ yellow.onclick = () => click(2);
 blue.onclick = () => click(3);
 
 playGame();
+
+console.log(score);
